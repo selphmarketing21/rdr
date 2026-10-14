@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-brand-wash text-ink antialiased; }
+  :focus-visible { @apply outline outline-2 outline-offset-2 outline-brand-dark; }
+}
+@layer components {
+  .btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors; }
+  .btn-primary { @apply bg-brand text-ink hover:bg-brand-light; }
+  .btn-outline { @apply border border-brand-dark/30 text-ink hover:bg-brand-tint; }
+  .card { @apply rounded-xl border border-brand/20 bg-white p-5; }
+  .input { @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/30; }
+  .label { @apply mb-1 block text-sm font-medium; }
+}
