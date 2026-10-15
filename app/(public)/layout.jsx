@@ -17,7 +17,7 @@ export default function PublicLayout({ children }) {
       {children}
       <footer className="mt-16 bg-ink py-8 text-sm text-white/70">
         <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-4">
-          <p>© 2025 Rediscover Roanoke · Selph Marketing</p>
+          <p>© 2026 Rediscover Roanoke · Selph Marketing</p>
           <p className="flex gap-4"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Privacy policy</a></p>
         </div>
       </footer>
